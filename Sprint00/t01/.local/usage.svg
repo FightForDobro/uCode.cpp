@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="terminal" baseProfile="full" viewBox="0 0 896 121" width="896" version="1.1">
+    <defs>
+        <termtosvg:template_settings xmlns:termtosvg="https://github.com/nbedos/termtosvg">
+            <termtosvg:screen_geometry columns="112" rows="7"/>
+            <termtosvg:animation type="css"/>
+        </termtosvg:template_settings>
+        <style type="text/css" id="generated-style"><![CDATA[#screen {
+                font-family: 'DejaVu Sans Mono', monospace;
+                font-style: normal;
+                font-size: 14px;
+            }
+
+        text {
+            dominant-baseline: text-before-edge;
+            white-space: pre;
+        }
+    
+            :root {
+                --animation-duration: 8938ms;
+            }
+
+            @keyframes roll {
+                0.000%{transform:translateY(0px)}
+12.900%{transform:translateY(-136px)}
+13.851%{transform:translateY(-272px)}
+14.556%{transform:translateY(-408px)}
+16.122%{transform:translateY(-544px)}
+29.638%{transform:translateY(-680px)}
+31.707%{transform:translateY(-816px)}
+35.064%{transform:translateY(-952px)}
+36.138%{transform:translateY(-1088px)}
+38.868%{transform:translateY(-1224px)}
+42.750%{transform:translateY(-1360px)}
+44.865%{transform:translateY(-1496px)}
+50.358%{transform:translateY(-1632px)}
+59.566%{transform:translateY(-1768px)}
+70.799%{transform:translateY(-1904px)}
+88.812%{transform:translateY(-2040px)}
+100.000%{transform:translateY(-2040px)}
+            }
+
+            #screen_view {
+                animation-duration: 8938ms;
+                animation-iteration-count:infinite;
+                animation-name:roll;
+                animation-timing-function: steps(1,end);
+                animation-fill-mode: forwards;
+            }
+        ]]></style>
+        <style type="text/css" id="user-style">
+            /* The colors defined below are the default 16 colors used for rendering text of the terminal. Adjust
+               them as needed.
+               dracula color theme */
+            .foreground {fill: #e9e9f4;}
+            .background {fill: #282936;}
+            .color0 {fill: #282936;}
+            .color1 {fill: #ea51b2;}
+            .color2 {fill: #ebff87;}
+            .color3 {fill: #00f769;}
+            .color4 {fill: #62d6e8;}
+            .color5 {fill: #b45bcf;}
+            .color6 {fill: #a1efe4;}
+            .color7 {fill: #e9e9f4;}
+            .color8 {fill: #626483;}
+            .color9 {fill: #b45bcf;}
+            .color10 {fill: #3a3c4e;}
+            .color11 {fill: #4d4f68;}
+            .color12 {fill: #62d6e8;}
+            .color13 {fill: #f1f2f8;}
+            .color14 {fill: #00f769;}
+            .color15 {fill: #f7f7fb;}
+        </style>
+    </defs>
+    <svg id="screen" width="896" height="119" viewBox="0 0 896 119" preserveAspectRatio="xMidYMin slice"><rect class="background" height="100%" width="100%" x="0" y="0"/><defs><g id="g1"><text x="0" textLength="88" font-weight="bold" class="color9">ffd@MisterX</text><text x="88" textLength="8" class="foreground">:</text><text x="96" textLength="480" font-weight="bold" class="color12">~/Documents/C++/c++_maraphone/Sprint00/t01/cmake-build-debug</text><text x="576" textLength="16" class="foreground">$ </text><text x="592" textLength="8" class="background"> </text></g><g id="g2"><text x="0" textLength="88" font-weight="bold" class="color9">ffd@MisterX</text><text x="88" textLength="8" class="foreground">:</text><text x="96" textLength="480" font-weight="bold" class="color12">~/Documents/C++/c++_maraphone/Sprint00/t01/cmake-build-debug</text><text x="576" textLength="24" class="foreground">$ .</text><text x="600" textLength="8" class="background"> </text></g><g id="g3"><text x="0" textLength="88" font-weight="bold" class="color9">ffd@MisterX</text><text x="88" textLength="8" class="foreground">:</text><text x="96" textLength="480" font-weight="bold" class="color12">~/Documents/C++/c++_maraphone/Sprint00/t01/cmake-build-debug</text><text x="576" textLength="32" class="foreground">$ ./</text><text x="608" textLength="8" class="background"> </text></g><g id="g4"><text x="0" textLength="88" font-weight="bold" class="color9">ffd@MisterX</text><text x="88" textLength="8" class="foreground">:</text><text x="96" textLength="480" font-weight="bold" class="color12">~/Documents/C++/c++_maraphone/Sprint00/t01/cmake-build-debug</text><text x="576" textLength="40" class="foreground">$ ./p</text><text x="616" textLength="8" class="background"> </text></g><g id="g5"><text x="0" textLength="88" font-weight="bold" class="color9">ffd@MisterX</text><text x="88" textLength="8" class="foreground">:</text><text x="96" textLength="480" font-weight="bold" class="color12">~/Documents/C++/c++_maraphone/Sprint00/t01/cmake-build-debug</text><text x="576" textLength="128" class="foreground">$ ./printDialog </text><text x="704" textLength="8" class="background"> </text></g><g id="g6"><text x="0" textLength="88" font-weight="bold" class="color9">ffd@MisterX</text><text x="88" textLength="8" class="foreground">:</text><text x="96" textLength="480" font-weight="bold" class="color12">~/Documents/C++/c++_maraphone/Sprint00/t01/cmake-build-debug</text><text x="576" textLength="136" class="foreground">$ ./printDialog |</text><text x="712" textLength="8" class="background"> </text></g><g id="g7"><text x="0" textLength="88" font-weight="bold" class="color9">ffd@MisterX</text><text x="88" textLength="8" class="foreground">:</text><text x="96" textLength="480" font-weight="bold" class="color12">~/Documents/C++/c++_maraphone/Sprint00/t01/cmake-build-debug</text><text x="576" textLength="144" class="foreground">$ ./printDialog | </text><text x="720" textLength="8" class="background"> </text></g><g id="g8"><text x="0" textLength="88" font-weight="bold" class="color9">ffd@MisterX</text><text x="88" textLength="8" class="foreground">:</text><text x="96" textLength="480" font-weight="bold" class="color12">~/Documents/C++/c++_maraphone/Sprint00/t01/cmake-build-debug</text><text x="576" textLength="152" class="foreground">$ ./printDialog | c</text><text x="728" textLength="8" class="background"> </text></g><g id="g9"><text x="0" textLength="88" font-weight="bold" class="color9">ffd@MisterX</text><text x="88" textLength="8" class="foreground">:</text><text x="96" textLength="480" font-weight="bold" class="color12">~/Documents/C++/c++_maraphone/Sprint00/t01/cmake-build-debug</text><text x="576" textLength="160" class="foreground">$ ./printDialog | ca</text><text x="736" textLength="8" class="background"> </text></g><g id="g10"><text x="0" textLength="88" font-weight="bold" class="color9">ffd@MisterX</text><text x="88" textLength="8" class="foreground">:</text><text x="96" textLength="480" font-weight="bold" class="color12">~/Documents/C++/c++_maraphone/Sprint00/t01/cmake-build-debug</text><text x="576" textLength="168" class="foreground">$ ./printDialog | cat</text><text x="744" textLength="8" class="background"> </text></g><g id="g11"><text x="0" textLength="88" font-weight="bold" class="color9">ffd@MisterX</text><text x="88" textLength="8" class="foreground">:</text><text x="96" textLength="480" font-weight="bold" class="color12">~/Documents/C++/c++_maraphone/Sprint00/t01/cmake-build-debug</text><text x="576" textLength="176" class="foreground">$ ./printDialog | cat </text><text x="752" textLength="8" class="background"> </text></g><g id="g12"><text x="0" textLength="88" font-weight="bold" class="color9">ffd@MisterX</text><text x="88" textLength="8" class="foreground">:</text><text x="96" textLength="480" font-weight="bold" class="color12">~/Documents/C++/c++_maraphone/Sprint00/t01/cmake-build-debug</text><text x="576" textLength="184" class="foreground">$ ./printDialog | cat -</text><text x="760" textLength="8" class="background"> </text></g><g id="g13"><text x="0" textLength="88" font-weight="bold" class="color9">ffd@MisterX</text><text x="88" textLength="8" class="foreground">:</text><text x="96" textLength="480" font-weight="bold" class="color12">~/Documents/C++/c++_maraphone/Sprint00/t01/cmake-build-debug</text><text x="576" textLength="192" class="foreground">$ ./printDialog | cat -e</text><text x="768" textLength="8" class="background"> </text></g><g id="g14"><text x="0" textLength="88" font-weight="bold" class="color9">ffd@MisterX</text><text x="88" textLength="8" class="foreground">:</text><text x="96" textLength="480" font-weight="bold" class="color12">~/Documents/C++/c++_maraphone/Sprint00/t01/cmake-build-debug</text><text x="576" textLength="192" class="foreground">$ ./printDialog | cat -e</text></g><g id="g15"><text x="0" textLength="8" class="background"> </text></g><g id="g16"><text x="0" textLength="80" class="foreground"> says: ""$</text></g><g id="g17"><text x="0" textLength="696" class="foreground">Gurad says: "I used to be an adventurer like you. Then I took an arrow in the knee..."$</text></g><g id="g18"><text x="0" textLength="656" class="foreground"> says: "I used to be an adventurer like you. Then I took an arrow in the knee..."$</text></g><g id="g19"><text x="0" textLength="120" class="foreground">Gurad says: ""$</text></g></defs><g id="screen_view"><g><rect x="592" y="0" width="8" height="17" class="foreground"/><use xlink:href="#g1" y="0"/></g><g><rect x="600" y="136" width="8" height="17" class="foreground"/><use xlink:href="#g2" y="136"/></g><g><rect x="608" y="272" width="8" height="17" class="foreground"/><use xlink:href="#g3" y="272"/></g><g><rect x="616" y="408" width="8" height="17" class="foreground"/><use xlink:href="#g4" y="408"/></g><g><rect x="704" y="544" width="8" height="17" class="foreground"/><use xlink:href="#g5" y="544"/></g><g><rect x="712" y="680" width="8" height="17" class="foreground"/><use xlink:href="#g6" y="680"/></g><g><rect x="720" y="816" width="8" height="17" class="foreground"/><use xlink:href="#g7" y="816"/></g><g><rect x="728" y="952" width="8" height="17" class="foreground"/><use xlink:href="#g8" y="952"/></g><g><rect x="736" y="1088" width="8" height="17" class="foreground"/><use xlink:href="#g9" y="1088"/></g><g><rect x="744" y="1224" width="8" height="17" class="foreground"/><use xlink:href="#g10" y="1224"/></g><g><rect x="752" y="1360" width="8" height="17" class="foreground"/><use xlink:href="#g11" y="1360"/></g><g><rect x="760" y="1496" width="8" height="17" class="foreground"/><use xlink:href="#g12" y="1496"/></g><g><rect x="768" y="1632" width="8" height="17" class="foreground"/><use xlink:href="#g13" y="1632"/></g><g><use xlink:href="#g14" y="1768"/><rect x="0" y="1785" width="8" height="17" class="foreground"/><use xlink:href="#g15" y="1785"/></g><g><use xlink:href="#g14" y="1904"/><use xlink:href="#g16" y="1921"/><use xlink:href="#g17" y="1938"/><use xlink:href="#g18" y="1955"/><use xlink:href="#g19" y="1972"/><rect x="0" y="1989" width="8" height="17" class="foreground"/><use xlink:href="#g15" y="1989"/></g><g><use xlink:href="#g14" y="2040"/><use xlink:href="#g16" y="2057"/><use xlink:href="#g17" y="2074"/><use xlink:href="#g18" y="2091"/><use xlink:href="#g19" y="2108"/><rect x="0" y="2125" width="8" height="17" class="foreground"/><use xlink:href="#g15" y="2125"/></g></g></svg>
+</svg>
