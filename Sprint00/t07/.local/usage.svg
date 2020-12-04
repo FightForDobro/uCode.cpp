@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="terminal" baseProfile="full" viewBox="0 0 1120 529" width="1120" version="1.1">
+    <defs>
+        <termtosvg:template_settings xmlns:termtosvg="https://github.com/nbedos/termtosvg">
+            <termtosvg:screen_geometry columns="140" rows="31"/>
+            <termtosvg:animation type="css"/>
+        </termtosvg:template_settings>
+        <style type="text/css" id="generated-style"><![CDATA[#screen {
+                font-family: 'DejaVu Sans Mono', monospace;
+                font-style: normal;
+                font-size: 14px;
+            }
+
+        text {
+            dominant-baseline: text-before-edge;
+            white-space: pre;
+        }
+    
+            :root {
+                --animation-duration: 4157ms;
+            }
+
+            @keyframes roll {
+                0.000%{transform:translateY(0px)}
+7.457%{transform:translateY(-544px)}
+11.884%{transform:translateY(-1088px)}
+23.527%{transform:translateY(-1632px)}
+26.558%{transform:translateY(-2176px)}
+29.372%{transform:translateY(-2720px)}
+47.655%{transform:translateY(-3264px)}
+47.679%{transform:translateY(-3808px)}
+75.944%{transform:translateY(-4352px)}
+100.000%{transform:translateY(-4352px)}
+            }
+
+            #screen_view {
+                animation-duration: 4157ms;
+                animation-iteration-count:infinite;
+                animation-name:roll;
+                animation-timing-function: steps(1,end);
+                animation-fill-mode: forwards;
+            }
+        ]]></style>
+        <style type="text/css" id="user-style">
+            /* The colors defined below are the default 16 colors used for rendering text of the terminal. Adjust
+               them as needed.
+               dracula color theme */
+            .foreground {fill: #e9e9f4;}
+            .background {fill: #282936;}
+            .color0 {fill: #282936;}
+            .color1 {fill: #ea51b2;}
+            .color2 {fill: #ebff87;}
+            .color3 {fill: #00f769;}
+            .color4 {fill: #62d6e8;}
+            .color5 {fill: #b45bcf;}
+            .color6 {fill: #a1efe4;}
+            .color7 {fill: #e9e9f4;}
+            .color8 {fill: #626483;}
+            .color9 {fill: #b45bcf;}
+            .color10 {fill: #3a3c4e;}
+            .color11 {fill: #4d4f68;}
+            .color12 {fill: #62d6e8;}
+            .color13 {fill: #f1f2f8;}
+            .color14 {fill: #00f769;}
+            .color15 {fill: #f7f7fb;}
+        </style>
+    </defs>
+    <svg id="screen" width="1120" height="527" viewBox="0 0 1120 527" preserveAspectRatio="xMidYMin slice"><rect class="background" height="100%" width="100%" x="0" y="0"/><defs><g id="g1"><text x="0" textLength="88" font-weight="bold" class="color9">ffd@MisterX</text><text x="88" textLength="8" class="foreground">:</text><text x="96" textLength="480" font-weight="bold" class="color12">~/Documents/C++/c++_maraphone/Sprint00/t06/cmake-build-debug</text><text x="576" textLength="16" class="foreground">$ </text><text x="592" textLength="8" class="background"> </text></g><g id="g2"><text x="0" textLength="88" font-weight="bold" class="color9">ffd@MisterX</text><text x="88" textLength="8" class="foreground">:</text><text x="96" textLength="480" font-weight="bold" class="color12">~/Documents/C++/c++_maraphone/Sprint00/t06/cmake-build-debug</text><text x="576" textLength="24" class="foreground">$ .</text><text x="600" textLength="8" class="background"> </text></g><g id="g3"><text x="0" textLength="88" font-weight="bold" class="color9">ffd@MisterX</text><text x="88" textLength="8" class="foreground">:</text><text x="96" textLength="480" font-weight="bold" class="color12">~/Documents/C++/c++_maraphone/Sprint00/t06/cmake-build-debug</text><text x="576" textLength="32" class="foreground">$ ./</text><text x="608" textLength="8" class="background"> </text></g><g id="g4"><text x="0" textLength="88" font-weight="bold" class="color9">ffd@MisterX</text><text x="88" textLength="8" class="foreground">:</text><text x="96" textLength="480" font-weight="bold" class="color12">~/Documents/C++/c++_maraphone/Sprint00/t06/cmake-build-debug</text><text x="576" textLength="40" class="foreground">$ ./m</text><text x="616" textLength="8" class="background"> </text></g><g id="g5"><text x="0" textLength="88" font-weight="bold" class="color9">ffd@MisterX</text><text x="88" textLength="8" class="foreground">:</text><text x="96" textLength="480" font-weight="bold" class="color12">~/Documents/C++/c++_maraphone/Sprint00/t06/cmake-build-debug</text><text x="576" textLength="48" class="foreground">$ ./me</text><text x="624" textLength="8" class="background"> </text></g><g id="g6"><text x="0" textLength="88" font-weight="bold" class="color9">ffd@MisterX</text><text x="88" textLength="8" class="foreground">:</text><text x="96" textLength="480" font-weight="bold" class="color12">~/Documents/C++/c++_maraphone/Sprint00/t06/cmake-build-debug</text><text x="576" textLength="104" class="foreground">$ ./meadSong </text><text x="680" textLength="8" class="background"> </text></g><g id="g7"><text x="0" textLength="88" font-weight="bold" class="color9">ffd@MisterX</text><text x="88" textLength="8" class="foreground">:</text><text x="96" textLength="480" font-weight="bold" class="color12">~/Documents/C++/c++_maraphone/Sprint00/t06/cmake-build-debug</text><text x="576" textLength="104" class="foreground">$ ./meadSong </text></g><g id="g8"><text x="0" textLength="8" class="background"> </text></g><g id="g9"><text x="0" textLength="392" class="foreground">9 bottles of mead on the wall, 9 bottles of mead.</text></g><g id="g10"><text x="0" textLength="512" class="foreground">Take one down and pass it around, 8 bottles of mead on the wall.</text></g><g id="g11"><text x="0" textLength="392" class="foreground">8 bottles of mead on the wall, 8 bottles of mead.</text></g><g id="g12"><text x="0" textLength="512" class="foreground">Take one down and pass it around, 7 bottles of mead on the wall.</text></g><g id="g13"><text x="0" textLength="392" class="foreground">7 bottles of mead on the wall, 7 bottles of mead.</text></g><g id="g14"><text x="0" textLength="512" class="foreground">Take one down and pass it around, 6 bottles of mead on the wall.</text></g><g id="g15"><text x="0" textLength="392" class="foreground">6 bottles of mead on the wall, 6 bottles of mead.</text></g><g id="g16"><text x="0" textLength="512" class="foreground">Take one down and pass it around, 5 bottles of mead on the wall.</text></g><g id="g17"><text x="0" textLength="392" class="foreground">5 bottles of mead on the wall, 5 bottles of mead.</text></g><g id="g18"><text x="0" textLength="512" class="foreground">Take one down and pass it around, 4 bottles of mead on the wall.</text></g><g id="g19"><text x="0" textLength="392" class="foreground">4 bottles of mead on the wall, 4 bottles of mead.</text></g><g id="g20"><text x="0" textLength="512" class="foreground">Take one down and pass it around, 3 bottles of mead on the wall.</text></g><g id="g21"><text x="0" textLength="392" class="foreground">3 bottles of mead on the wall, 3 bottles of mead.</text></g><g id="g22"><text x="0" textLength="512" class="foreground">Take one down and pass it around, 2 bottles of mead on the wall.</text></g><g id="g23"><text x="0" textLength="392" class="foreground">2 bottles of mead on the wall, 2 bottles of mead.</text></g><g id="g24"><text x="0" textLength="512" class="foreground">Take one down and pass it around, 1 bottles of mead on the wall.</text></g><g id="g25"><text x="0" textLength="392" class="foreground">1 bottles of mead on the wall, 1 bottles of mead.</text></g><g id="g26"><text x="0" textLength="560" class="foreground">Take one down and pass it around, no more bottles of mead on the wall.</text></g><g id="g27"><text x="0" textLength="488" class="foreground">No more bottles of mead on the wall, no more bottles of mead.</text></g><g id="g28"><text x="0" textLength="528" class="foreground">Go to the store and buy some more, 99 bottles of mead on the wall.</text></g></defs><g id="screen_view"><g><rect x="592" y="0" width="8" height="17" class="foreground"/><use xlink:href="#g1" y="0"/></g><g><rect x="600" y="544" width="8" height="17" class="foreground"/><use xlink:href="#g2" y="544"/></g><g><rect x="608" y="1088" width="8" height="17" class="foreground"/><use xlink:href="#g3" y="1088"/></g><g><rect x="616" y="1632" width="8" height="17" class="foreground"/><use xlink:href="#g4" y="1632"/></g><g><rect x="624" y="2176" width="8" height="17" class="foreground"/><use xlink:href="#g5" y="2176"/></g><g><rect x="680" y="2720" width="8" height="17" class="foreground"/><use xlink:href="#g6" y="2720"/></g><g><use xlink:href="#g7" y="3264"/><rect x="0" y="3281" width="8" height="17" class="foreground"/><use xlink:href="#g8" y="3281"/></g><g><use xlink:href="#g9" y="3825"/><use xlink:href="#g10" y="3842"/><use xlink:href="#g11" y="3876"/><use xlink:href="#g12" y="3893"/><use xlink:href="#g13" y="3927"/><use xlink:href="#g14" y="3944"/><use xlink:href="#g15" y="3978"/><use xlink:href="#g16" y="3995"/><use xlink:href="#g17" y="4029"/><use xlink:href="#g18" y="4046"/><use xlink:href="#g19" y="4080"/><use xlink:href="#g20" y="4097"/><use xlink:href="#g21" y="4131"/><use xlink:href="#g22" y="4148"/><use xlink:href="#g23" y="4182"/><use xlink:href="#g24" y="4199"/><use xlink:href="#g25" y="4233"/><use xlink:href="#g26" y="4250"/><use xlink:href="#g27" y="4284"/><use xlink:href="#g28" y="4301"/><rect x="0" y="4318" width="8" height="17" class="foreground"/><use xlink:href="#g8" y="4318"/></g><g><use xlink:href="#g9" y="4369"/><use xlink:href="#g10" y="4386"/><use xlink:href="#g11" y="4420"/><use xlink:href="#g12" y="4437"/><use xlink:href="#g13" y="4471"/><use xlink:href="#g14" y="4488"/><use xlink:href="#g15" y="4522"/><use xlink:href="#g16" y="4539"/><use xlink:href="#g17" y="4573"/><use xlink:href="#g18" y="4590"/><use xlink:href="#g19" y="4624"/><use xlink:href="#g20" y="4641"/><use xlink:href="#g21" y="4675"/><use xlink:href="#g22" y="4692"/><use xlink:href="#g23" y="4726"/><use xlink:href="#g24" y="4743"/><use xlink:href="#g25" y="4777"/><use xlink:href="#g26" y="4794"/><use xlink:href="#g27" y="4828"/><use xlink:href="#g28" y="4845"/><rect x="0" y="4862" width="8" height="17" class="foreground"/><use xlink:href="#g8" y="4862"/></g></g></svg>
+</svg>

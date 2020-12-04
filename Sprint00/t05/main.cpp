@@ -17,6 +17,8 @@ void check_arg(const std::string &string)
         std::cout << invarg_err << string << std::endl, exit(0);
 }
 
+
+
 int main(int argc ,char **argv)
 {
     if (argc != 5)
