@@ -1,4 +1,4 @@
-#Cast Spells
+# Cast Spells
 
 ### LEGEND
 
@@ -27,7 +27,7 @@ Forget about C-like casting. Don't do that here.
  cmake . -B build && cmake --build ./build
  ```
 
-###Synopsis
+### Synopsis
 ```c++
 int castFloatToInt(float number);
 int* castToNonConstIntPtr(const int* ptr);

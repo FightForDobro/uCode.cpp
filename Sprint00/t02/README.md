@@ -1,4 +1,4 @@
-#Wallet Manager
+# Wallet Manager
 
 ### LEGEND
 
@@ -32,7 +32,7 @@ world of C++. Use C++ methods.
  cmake . -B build && cmake --build ./build
  ```
 
-###Synopsis
+### Synopsis
 ```c++
 struct Wallet 
 {

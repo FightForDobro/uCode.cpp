@@ -1,4 +1,4 @@
-#Print Dialog
+# Print Dialog
 
 ### LEGEND
 
@@ -26,7 +26,7 @@ Take into accout, your program must work even with empty strings.
  cmake . -B build && cmake --build ./build
  ```
 
-###Synopsis
+### Synopsis
 ```c++
 void printDialog(const std::string& name, const std::string& sentence);
 ```
