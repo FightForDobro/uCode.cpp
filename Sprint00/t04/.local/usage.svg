@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="terminal" baseProfile="full" viewBox="0 0 1120 529" width="1120" version="1.1">
+    <defs>
+        <termtosvg:template_settings xmlns:termtosvg="https://github.com/nbedos/termtosvg">
+            <termtosvg:screen_geometry columns="140" rows="31"/>
+            <termtosvg:animation type="css"/>
+        </termtosvg:template_settings>
+        <style type="text/css" id="generated-style"><![CDATA[#screen {
+                font-family: 'DejaVu Sans Mono', monospace;
+                font-style: normal;
+                font-size: 14px;
+            }
+
+        text {
+            dominant-baseline: text-before-edge;
+            white-space: pre;
+        }
+    
+            :root {
+                --animation-duration: 5069ms;
+            }
+
+            @keyframes roll {
+                0.000%{transform:translateY(0px)}
+34.405%{transform:translateY(-544px)}
+36.970%{transform:translateY(-1088px)}
+40.442%{transform:translateY(-1632px)}
+44.289%{transform:translateY(-2176px)}
+56.185%{transform:translateY(-2720px)}
+56.224%{transform:translateY(-3264px)}
+80.272%{transform:translateY(-3808px)}
+100.000%{transform:translateY(-3808px)}
+            }
+
+            #screen_view {
+                animation-duration: 5069ms;
+                animation-iteration-count:infinite;
+                animation-name:roll;
+                animation-timing-function: steps(1,end);
+                animation-fill-mode: forwards;
+            }
+        ]]></style>
+        <style type="text/css" id="user-style">
+            /* The colors defined below are the default 16 colors used for rendering text of the terminal. Adjust
+               them as needed.
+               dracula color theme */
+            .foreground {fill: #e9e9f4;}
+            .background {fill: #282936;}
+            .color0 {fill: #282936;}
+            .color1 {fill: #ea51b2;}
+            .color2 {fill: #ebff87;}
+            .color3 {fill: #00f769;}
+            .color4 {fill: #62d6e8;}
+            .color5 {fill: #b45bcf;}
+            .color6 {fill: #a1efe4;}
+            .color7 {fill: #e9e9f4;}
+            .color8 {fill: #626483;}
+            .color9 {fill: #b45bcf;}
+            .color10 {fill: #3a3c4e;}
+            .color11 {fill: #4d4f68;}
+            .color12 {fill: #62d6e8;}
+            .color13 {fill: #f1f2f8;}
+            .color14 {fill: #00f769;}
+            .color15 {fill: #f7f7fb;}
+        </style>
+    </defs>
+    <svg id="screen" width="1120" height="527" viewBox="0 0 1120 527" preserveAspectRatio="xMidYMin slice"><rect class="background" height="100%" width="100%" x="0" y="0"/><defs><g id="g1"><text x="0" textLength="88" font-weight="bold" class="color9">ffd@MisterX</text><text x="88" textLength="8" class="foreground">:</text><text x="96" textLength="480" font-weight="bold" class="color12">~/Documents/C++/c++_maraphone/Sprint00/t04/cmake-build-debug</text><text x="576" textLength="16" class="foreground">$ </text><text x="592" textLength="8" class="background"> </text></g><g id="g2"><text x="0" textLength="88" font-weight="bold" class="color9">ffd@MisterX</text><text x="88" textLength="8" class="foreground">:</text><text x="96" textLength="480" font-weight="bold" class="color12">~/Documents/C++/c++_maraphone/Sprint00/t04/cmake-build-debug</text><text x="576" textLength="24" class="foreground">$ .</text><text x="600" textLength="8" class="background"> </text></g><g id="g3"><text x="0" textLength="88" font-weight="bold" class="color9">ffd@MisterX</text><text x="88" textLength="8" class="foreground">:</text><text x="96" textLength="480" font-weight="bold" class="color12">~/Documents/C++/c++_maraphone/Sprint00/t04/cmake-build-debug</text><text x="576" textLength="32" class="foreground">$ ./</text><text x="608" textLength="8" class="background"> </text></g><g id="g4"><text x="0" textLength="88" font-weight="bold" class="color9">ffd@MisterX</text><text x="88" textLength="8" class="foreground">:</text><text x="96" textLength="480" font-weight="bold" class="color12">~/Documents/C++/c++_maraphone/Sprint00/t04/cmake-build-debug</text><text x="576" textLength="40" class="foreground">$ ./r</text><text x="616" textLength="8" class="background"> </text></g><g id="g5"><text x="0" textLength="88" font-weight="bold" class="color9">ffd@MisterX</text><text x="88" textLength="8" class="foreground">:</text><text x="96" textLength="480" font-weight="bold" class="color12">~/Documents/C++/c++_maraphone/Sprint00/t04/cmake-build-debug</text><text x="576" textLength="184" class="foreground">$ ./referenceOrPointer </text><text x="760" textLength="8" class="background"> </text></g><g id="g6"><text x="0" textLength="88" font-weight="bold" class="color9">ffd@MisterX</text><text x="88" textLength="8" class="foreground">:</text><text x="96" textLength="480" font-weight="bold" class="color12">~/Documents/C++/c++_maraphone/Sprint00/t04/cmake-build-debug</text><text x="576" textLength="184" class="foreground">$ ./referenceOrPointer </text></g><g id="g7"><text x="0" textLength="8" class="background"> </text></g><g id="g8"><text x="0" textLength="120" class="foreground">Original num: 5</text></g><g id="g9"><text x="0" textLength="104" class="foreground">Operand is: 2</text></g><g id="g10"><text x="0" textLength="232" class="foreground">num multiplied by pointer: 10</text></g><g id="g11"><text x="0" textLength="248" class="foreground">num multiplied by reference: 20</text></g></defs><g id="screen_view"><g><rect x="592" y="0" width="8" height="17" class="foreground"/><use xlink:href="#g1" y="0"/></g><g><rect x="600" y="544" width="8" height="17" class="foreground"/><use xlink:href="#g2" y="544"/></g><g><rect x="608" y="1088" width="8" height="17" class="foreground"/><use xlink:href="#g3" y="1088"/></g><g><rect x="616" y="1632" width="8" height="17" class="foreground"/><use xlink:href="#g4" y="1632"/></g><g><rect x="760" y="2176" width="8" height="17" class="foreground"/><use xlink:href="#g5" y="2176"/></g><g><use xlink:href="#g6" y="2720"/><rect x="0" y="2737" width="8" height="17" class="foreground"/><use xlink:href="#g7" y="2737"/></g><g><use xlink:href="#g6" y="3264"/><use xlink:href="#g8" y="3281"/><use xlink:href="#g9" y="3298"/><use xlink:href="#g10" y="3315"/><use xlink:href="#g11" y="3332"/><rect x="0" y="3349" width="8" height="17" class="foreground"/><use xlink:href="#g7" y="3349"/></g><g><use xlink:href="#g6" y="3808"/><use xlink:href="#g8" y="3825"/><use xlink:href="#g9" y="3842"/><use xlink:href="#g10" y="3859"/><use xlink:href="#g11" y="3876"/><rect x="0" y="3893" width="8" height="17" class="foreground"/><use xlink:href="#g7" y="3893"/></g></g></svg>
+</svg>

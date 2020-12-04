@@ -8,7 +8,5 @@ int main(int argc, char **argv)
 
     lib::seek_and_print(array);
 
-//    std::copy(array.begin(), array.end(), std::ostream_iterator<std::string>(std::cout, " "));
-
     return 0;
 }
