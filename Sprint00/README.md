@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://ain.ua/special/about-ucode/images/tild3034-3861-4435-b232-653832626664__ucode_logo_minimal.png"><img src="https://ain.ua/special/about-ucode/images/tild3034-3861-4435-b232-653832626664__ucode_logo_minimal.png" alt="logo" width="200"></a>
+  <a href="https://ain.ua/special/about-ucode/images/tild3034-3861-4435-b232-653832626664__ucode_logo_minimal.png"><img src="https://ain.ua/special/about-ucode/images/tild3034-3861-4435-b232-653832626664__ucode_logo_minimal.png" alt="logo" width="350"></a>
   <br>
   Dive into C++.
   <br>
