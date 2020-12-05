@@ -13,8 +13,6 @@
   <a href="#essential-question">Essential Question</a>
 </p>
 
-***
-
 ### Tasks
 
 | Name          | skills                | mark |
