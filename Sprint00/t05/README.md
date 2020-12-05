@@ -1,3 +1,6 @@
+<img src="https://static.wikia.nocookie.net/skyrim_gamepedia/images/2/2e/Calcelmo.png/revision/latest/scale-to-width-down/244?cb=20120320153545" align="right" alt="logo" height="" width="128px">
+
+
 # Automaton
 
 ### LEGEND

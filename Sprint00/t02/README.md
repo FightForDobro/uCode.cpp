@@ -1,3 +1,5 @@
+<img src="https://i.imgur.com/Uc0FJxE.gif" align="right" alt="logo" width="256px">
+
 # Wallet Manager
 
 ### LEGEND

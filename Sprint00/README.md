@@ -17,7 +17,7 @@
 
 | Name          | skills                | mark |
 | ------------- |:------------------:| -----:|
-| Hello Tamriel     | std::array & std::sort   | ? |
+| Hello Tamriel     | Basics of I/O library   | ? |
 | Print Dialog    | std::string |   ? |
 | Wallet Manager  | Dynamic Memory Allocation Data structures|    ? |
 | Cast Spells  | Standard Conversions         |    ? |
