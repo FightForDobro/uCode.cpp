@@ -3,6 +3,7 @@
 
 #include <algorithm>
 #include <iostream>
+#include <cstring>
 #include <string>
 #include <vector>
 #include <array>
@@ -20,7 +21,7 @@
 
 namespace lib
 {
-    void validate_cmd(std::string &cmd);
+    void validate_cmd(char *cmd, std::vector<std::string> &inventory);
     void insert(std::vector<std::string>& inventory, std::string item);
     void remove(std::vector<std::string>& inventory, std::string item);
     void show(std::vector<std::string>& inventory);
