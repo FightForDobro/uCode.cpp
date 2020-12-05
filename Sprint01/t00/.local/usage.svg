@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="terminal" baseProfile="full" viewBox="0 0 1096 563" width="1096" version="1.1">
+    <defs>
+        <termtosvg:template_settings xmlns:termtosvg="https://github.com/nbedos/termtosvg">
+            <termtosvg:screen_geometry columns="137" rows="33"/>
+            <termtosvg:animation type="css"/>
+        </termtosvg:template_settings>
+        <style type="text/css" id="generated-style"><![CDATA[#screen {
+                font-family: 'DejaVu Sans Mono', monospace;
+                font-style: normal;
+                font-size: 14px;
+            }
+
+        text {
+            dominant-baseline: text-before-edge;
+            white-space: pre;
+        }
+    
+            :root {
+                --animation-duration: 9980ms;
+            }
+
+            @keyframes roll {
+                0.000%{transform:translateY(0px)}
+5.000%{transform:translateY(-578px)}
+6.784%{transform:translateY(-1156px)}
+9.329%{transform:translateY(-1734px)}
+13.858%{transform:translateY(-2312px)}
+15.792%{transform:translateY(-2890px)}
+22.194%{transform:translateY(-3468px)}
+32.124%{transform:translateY(-4046px)}
+32.154%{transform:translateY(-4624px)}
+46.834%{transform:translateY(-5202px)}
+58.537%{transform:translateY(-5780px)}
+60.671%{transform:translateY(-6358px)}
+63.487%{transform:translateY(-6936px)}
+65.281%{transform:translateY(-7514px)}
+66.964%{transform:translateY(-8092px)}
+69.299%{transform:translateY(-8670px)}
+71.263%{transform:translateY(-9248px)}
+72.966%{transform:translateY(-9826px)}
+73.677%{transform:translateY(-10404px)}
+81.052%{transform:translateY(-10982px)}
+81.072%{transform:translateY(-11560px)}
+89.980%{transform:translateY(-12138px)}
+100.000%{transform:translateY(-12138px)}
+            }
+
+            #screen_view {
+                animation-duration: 9980ms;
+                animation-iteration-count:infinite;
+                animation-name:roll;
+                animation-timing-function: steps(1,end);
+                animation-fill-mode: forwards;
+            }
+        ]]></style>
+        <style type="text/css" id="user-style">
+            /* The colors defined below are the default 16 colors used for rendering text of the terminal. Adjust
+               them as needed.
+               dracula color theme */
+            .foreground {fill: #e9e9f4;}
+            .background {fill: #282936;}
+            .color0 {fill: #282936;}
+            .color1 {fill: #ea51b2;}
+            .color2 {fill: #ebff87;}
+            .color3 {fill: #00f769;}
+            .color4 {fill: #62d6e8;}
+            .color5 {fill: #b45bcf;}
+            .color6 {fill: #a1efe4;}
+            .color7 {fill: #e9e9f4;}
+            .color8 {fill: #626483;}
+            .color9 {fill: #b45bcf;}
+            .color10 {fill: #3a3c4e;}
+            .color11 {fill: #4d4f68;}
+            .color12 {fill: #62d6e8;}
+            .color13 {fill: #f1f2f8;}
+            .color14 {fill: #00f769;}
+            .color15 {fill: #f7f7fb;}
+        </style>
+    </defs>
+    <svg id="screen" width="1096" height="561" viewBox="0 0 1096 561" preserveAspectRatio="xMidYMin slice"><rect class="background" height="100%" width="100%" x="0" y="0"/><defs><g id="g1"><text x="0" textLength="88" font-weight="bold" class="color9">ffd@MisterX</text><text x="88" textLength="8" class="foreground">:</text><text x="96" textLength="480" font-weight="bold" class="color12">~/Documents/C++/c++_maraphone/Sprint01/t00/cmake-build-debug</text><text x="576" textLength="16" class="foreground">$ </text><text x="592" textLength="8" class="background"> </text></g><g id="g2"><text x="0" textLength="88" font-weight="bold" class="color9">ffd@MisterX</text><text x="88" textLength="8" class="foreground">:</text><text x="96" textLength="480" font-weight="bold" class="color12">~/Documents/C++/c++_maraphone/Sprint01/t00/cmake-build-debug</text><text x="576" textLength="24" class="foreground">$ .</text><text x="600" textLength="8" class="background"> </text></g><g id="g3"><text x="0" textLength="88" font-weight="bold" class="color9">ffd@MisterX</text><text x="88" textLength="8" class="foreground">:</text><text x="96" textLength="480" font-weight="bold" class="color12">~/Documents/C++/c++_maraphone/Sprint01/t00/cmake-build-debug</text><text x="576" textLength="32" class="foreground">$ ./</text><text x="608" textLength="8" class="background"> </text></g><g id="g4"><text x="0" textLength="88" font-weight="bold" class="color9">ffd@MisterX</text><text x="88" textLength="8" class="foreground">:</text><text x="96" textLength="480" font-weight="bold" class="color12">~/Documents/C++/c++_maraphone/Sprint01/t00/cmake-build-debug</text><text x="576" textLength="40" class="foreground">$ ./s</text><text x="616" textLength="8" class="background"> </text></g><g id="g5"><text x="0" textLength="88" font-weight="bold" class="color9">ffd@MisterX</text><text x="88" textLength="8" class="foreground">:</text><text x="96" textLength="480" font-weight="bold" class="color12">~/Documents/C++/c++_maraphone/Sprint01/t00/cmake-build-debug</text><text x="576" textLength="48" class="foreground">$ ./si</text><text x="624" textLength="8" class="background"> </text></g><g id="g6"><text x="0" textLength="88" font-weight="bold" class="color9">ffd@MisterX</text><text x="88" textLength="8" class="foreground">:</text><text x="96" textLength="480" font-weight="bold" class="color12">~/Documents/C++/c++_maraphone/Sprint01/t00/cmake-build-debug</text><text x="576" textLength="56" class="foreground">$ ./sim</text><text x="632" textLength="8" class="background"> </text></g><g id="g7"><text x="0" textLength="88" font-weight="bold" class="color9">ffd@MisterX</text><text x="88" textLength="8" class="foreground">:</text><text x="96" textLength="480" font-weight="bold" class="color12">~/Documents/C++/c++_maraphone/Sprint01/t00/cmake-build-debug</text><text x="576" textLength="120" class="foreground">$ ./simpleSort </text><text x="696" textLength="8" class="background"> </text></g><g id="g8"><text x="0" textLength="88" font-weight="bold" class="color9">ffd@MisterX</text><text x="88" textLength="8" class="foreground">:</text><text x="96" textLength="480" font-weight="bold" class="color12">~/Documents/C++/c++_maraphone/Sprint01/t00/cmake-build-debug</text><text x="576" textLength="120" class="foreground">$ ./simpleSort </text></g><g id="g9"><text x="0" textLength="8" class="background"> </text></g><g id="g10"><text x="0" textLength="352" class="foreground">usage: ./simpleSort arg1 arg2 arg3 arg4 arg5</text></g><g id="g11"><text x="0" textLength="88" font-weight="bold" class="color9">ffd@MisterX</text><text x="88" textLength="8" class="foreground">:</text><text x="96" textLength="480" font-weight="bold" class="color12">~/Documents/C++/c++_maraphone/Sprint01/t00/cmake-build-debug</text><text x="576" textLength="128" class="foreground">$ ./simpleSort 5</text><text x="704" textLength="8" class="background"> </text></g><g id="g12"><text x="0" textLength="88" font-weight="bold" class="color9">ffd@MisterX</text><text x="88" textLength="8" class="foreground">:</text><text x="96" textLength="480" font-weight="bold" class="color12">~/Documents/C++/c++_maraphone/Sprint01/t00/cmake-build-debug</text><text x="576" textLength="136" class="foreground">$ ./simpleSort 5 </text><text x="712" textLength="8" class="background"> </text></g><g id="g13"><text x="0" textLength="88" font-weight="bold" class="color9">ffd@MisterX</text><text x="88" textLength="8" class="foreground">:</text><text x="96" textLength="480" font-weight="bold" class="color12">~/Documents/C++/c++_maraphone/Sprint01/t00/cmake-build-debug</text><text x="576" textLength="144" class="foreground">$ ./simpleSort 5 4</text><text x="720" textLength="8" class="background"> </text></g><g id="g14"><text x="0" textLength="88" font-weight="bold" class="color9">ffd@MisterX</text><text x="88" textLength="8" class="foreground">:</text><text x="96" textLength="480" font-weight="bold" class="color12">~/Documents/C++/c++_maraphone/Sprint01/t00/cmake-build-debug</text><text x="576" textLength="152" class="foreground">$ ./simpleSort 5 4 </text><text x="728" textLength="8" class="background"> </text></g><g id="g15"><text x="0" textLength="88" font-weight="bold" class="color9">ffd@MisterX</text><text x="88" textLength="8" class="foreground">:</text><text x="96" textLength="480" font-weight="bold" class="color12">~/Documents/C++/c++_maraphone/Sprint01/t00/cmake-build-debug</text><text x="576" textLength="160" class="foreground">$ ./simpleSort 5 4 3</text><text x="736" textLength="8" class="background"> </text></g><g id="g16"><text x="0" textLength="88" font-weight="bold" class="color9">ffd@MisterX</text><text x="88" textLength="8" class="foreground">:</text><text x="96" textLength="480" font-weight="bold" class="color12">~/Documents/C++/c++_maraphone/Sprint01/t00/cmake-build-debug</text><text x="576" textLength="168" class="foreground">$ ./simpleSort 5 4 3 </text><text x="744" textLength="8" class="background"> </text></g><g id="g17"><text x="0" textLength="88" font-weight="bold" class="color9">ffd@MisterX</text><text x="88" textLength="8" class="foreground">:</text><text x="96" textLength="480" font-weight="bold" class="color12">~/Documents/C++/c++_maraphone/Sprint01/t00/cmake-build-debug</text><text x="576" textLength="176" class="foreground">$ ./simpleSort 5 4 3 2</text><text x="752" textLength="8" class="background"> </text></g><g id="g18"><text x="0" textLength="88" font-weight="bold" class="color9">ffd@MisterX</text><text x="88" textLength="8" class="foreground">:</text><text x="96" textLength="480" font-weight="bold" class="color12">~/Documents/C++/c++_maraphone/Sprint01/t00/cmake-build-debug</text><text x="576" textLength="184" class="foreground">$ ./simpleSort 5 4 3 2 </text><text x="760" textLength="8" class="background"> </text></g><g id="g19"><text x="0" textLength="88" font-weight="bold" class="color9">ffd@MisterX</text><text x="88" textLength="8" class="foreground">:</text><text x="96" textLength="480" font-weight="bold" class="color12">~/Documents/C++/c++_maraphone/Sprint01/t00/cmake-build-debug</text><text x="576" textLength="192" class="foreground">$ ./simpleSort 5 4 3 2 1</text><text x="768" textLength="8" class="background"> </text></g><g id="g20"><text x="0" textLength="88" font-weight="bold" class="color9">ffd@MisterX</text><text x="88" textLength="8" class="foreground">:</text><text x="96" textLength="480" font-weight="bold" class="color12">~/Documents/C++/c++_maraphone/Sprint01/t00/cmake-build-debug</text><text x="576" textLength="192" class="foreground">$ ./simpleSort 5 4 3 2 1</text></g></defs><g id="screen_view"><g><rect x="592" y="0" width="8" height="17" class="foreground"/><use xlink:href="#g1" y="0"/></g><g><rect x="600" y="578" width="8" height="17" class="foreground"/><use xlink:href="#g2" y="578"/></g><g><rect x="608" y="1156" width="8" height="17" class="foreground"/><use xlink:href="#g3" y="1156"/></g><g><rect x="616" y="1734" width="8" height="17" class="foreground"/><use xlink:href="#g4" y="1734"/></g><g><rect x="624" y="2312" width="8" height="17" class="foreground"/><use xlink:href="#g5" y="2312"/></g><g><rect x="632" y="2890" width="8" height="17" class="foreground"/><use xlink:href="#g6" y="2890"/></g><g><rect x="696" y="3468" width="8" height="17" class="foreground"/><use xlink:href="#g7" y="3468"/></g><g><use xlink:href="#g8" y="4046"/><rect x="0" y="4063" width="8" height="17" class="foreground"/><use xlink:href="#g9" y="4063"/></g><g><use xlink:href="#g8" y="4624"/><use xlink:href="#g10" y="4641"/><rect x="592" y="4658" width="8" height="17" class="foreground"/><use xlink:href="#g1" y="4658"/></g><g><use xlink:href="#g8" y="5202"/><use xlink:href="#g10" y="5219"/><rect x="696" y="5236" width="8" height="17" class="foreground"/><use xlink:href="#g7" y="5236"/></g><g><use xlink:href="#g8" y="5780"/><use xlink:href="#g10" y="5797"/><rect x="704" y="5814" width="8" height="17" class="foreground"/><use xlink:href="#g11" y="5814"/></g><g><use xlink:href="#g8" y="6358"/><use xlink:href="#g10" y="6375"/><rect x="712" y="6392" width="8" height="17" class="foreground"/><use xlink:href="#g12" y="6392"/></g><g><use xlink:href="#g8" y="6936"/><use xlink:href="#g10" y="6953"/><rect x="720" y="6970" width="8" height="17" class="foreground"/><use xlink:href="#g13" y="6970"/></g><g><use xlink:href="#g8" y="7514"/><use xlink:href="#g10" y="7531"/><rect x="728" y="7548" width="8" height="17" class="foreground"/><use xlink:href="#g14" y="7548"/></g><g><use xlink:href="#g8" y="8092"/><use xlink:href="#g10" y="8109"/><rect x="736" y="8126" width="8" height="17" class="foreground"/><use xlink:href="#g15" y="8126"/></g><g><use xlink:href="#g8" y="8670"/><use xlink:href="#g10" y="8687"/><rect x="744" y="8704" width="8" height="17" class="foreground"/><use xlink:href="#g16" y="8704"/></g><g><use xlink:href="#g8" y="9248"/><use xlink:href="#g10" y="9265"/><rect x="752" y="9282" width="8" height="17" class="foreground"/><use xlink:href="#g17" y="9282"/></g><g><use xlink:href="#g8" y="9826"/><use xlink:href="#g10" y="9843"/><rect x="760" y="9860" width="8" height="17" class="foreground"/><use xlink:href="#g18" y="9860"/></g><g><use xlink:href="#g8" y="10404"/><use xlink:href="#g10" y="10421"/><rect x="768" y="10438" width="8" height="17" class="foreground"/><use xlink:href="#g19" y="10438"/></g><g><use xlink:href="#g8" y="10982"/><use xlink:href="#g10" y="10999"/><use xlink:href="#g20" y="11016"/><rect x="0" y="11033" width="8" height="17" class="foreground"/><use xlink:href="#g9" y="11033"/></g><g><use xlink:href="#g8" y="11560"/><use xlink:href="#g10" y="11577"/><use xlink:href="#g20" y="11594"/><use xlink:href="#g10" y="11611"/><rect x="0" y="11628" width="8" height="17" class="foreground"/><use xlink:href="#g9" y="11628"/></g><g><use xlink:href="#g8" y="12138"/><use xlink:href="#g10" y="12155"/><use xlink:href="#g20" y="12172"/><use xlink:href="#g10" y="12189"/><rect x="0" y="12206" width="8" height="17" class="foreground"/><use xlink:href="#g9" y="12206"/></g></g></svg>
+</svg>
