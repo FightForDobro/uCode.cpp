@@ -1,3 +1,5 @@
+<img src="https://i.giphy.com/media/3o6Zt5jXXzAzdikVmE/giphy.webp" align="right" alt="logo" height="" width="128px">
+
 # Simple Sort
 
 ### DESCRIPTION

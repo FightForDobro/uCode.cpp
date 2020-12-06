@@ -6,7 +6,7 @@ static int seek(std::string haystack)
     std::transform(haystack.begin(), haystack.end(), haystack.begin(), ::tolower);
 
     return std::find_if(toFind.begin(), toFind.end(),
-                        [&](auto n){if(haystack.find(n) != -1)return true;})->begin().base() != NULL;
+                        [&](auto n){return haystack.find(n) != -1;})->begin().base() != NULL;
 }
 
 

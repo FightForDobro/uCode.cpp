@@ -1,25 +1,26 @@
 #include "lib.h"
 
-// ToDo: add usage and something else!
-
 int main(int argc, char **argv)
 {
-//    std::vector<std::string>array(argc - 1);
-//    std::copy(&argv[1], &argv[argc], array.begin());
-    std::deque<std::string>locations;
+    if (argc == 1)
+        std::cerr << "usage: ./visitAll [[name,stamina,distance] ...]" << std::endl, exit(0);
 
-//    for (int i = 1; i < argc; ++i)
-//        locations.emplace_back(argv[i]);
+    else if (argc == 2)
+        std::cerr << "Mission: Impossible" << std::endl, exit(0);
 
-//    lib::seek_and_print(array);
-//    std::copy(array.begin(), array.end(), std::ostream_iterator<std::string>(std::cout, " "));
-    std::copy(&argv[1], &argv[argc], std::back_insert_iterator(locations));
-    lib::parse_line(locations);
+    std::deque<lib::t_location> locations;
 
-//    locations.push_back(locations.front());
-//    locations.pop_front();
+    for (int i = 1; i < argc; i++)
+    {
+        lib::s_location Location = lib::parse_line(argv[i]);
+        Location.base_id = i - 1;
+        locations.emplace_back(Location);
+    }
 
-    return 0;
+    lib::find_town(locations);
+
+    for (auto &location : locations)
+        std::cout << location.base_id << ". " << location.town << std::endl;
 }
 
 
