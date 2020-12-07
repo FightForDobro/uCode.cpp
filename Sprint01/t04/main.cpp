@@ -5,11 +5,16 @@ int main(int argc, char **argv)
     if (argc != 2)
         std::cerr << "usage: ./stdAlgoV1 [file_name]" << std::endl, exit(0);
 
-    std::ifstream file("../file.txt");
+    std::ifstream file(argv[1]);
 
     std::string name;
     std::forward_list<std::string> list;
 
+    file.seekg(1, std::ios::end);
+    if (!file.good())
+        std::cerr << "error" << std::endl, exit(0);
+
+    file.seekg(0, std::ios::beg);
     while (file.is_open())
     {
         while (std::getline(file, name))

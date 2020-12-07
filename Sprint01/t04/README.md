@@ -1,3 +1,5 @@
+<img src="https://static.wikia.nocookie.net/elderscrolls/images/f/ff/%D0%92%D0%B0%D0%B9%D1%82%D1%80%D0%B0%D0%BD.png/revision/latest/scale-to-width-down/426?cb=20120830124016&path-prefix=ru" align="right" alt="logo" height="" width="128px">
+
 # Standard Algorithms V1
 
 ### LEGEND
