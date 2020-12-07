@@ -3,4 +3,4 @@ project(stdAlgoV1)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_library(lib_src STATIC lib.h)
+add_library(lib_src STATIC lib.h check_ending.cpp)

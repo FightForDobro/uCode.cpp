@@ -6,18 +6,10 @@
 #include <iostream>        // std::cout
 #include <fstream>
 #include <ios>
-//#include <iterator>       // std::ostream_iterator
-//#include <unistd.h>      // sleep
-//#include <variant>      // std::variant
-//#include <cstdlib>     // sleep
-//#include <sstream>    // std::sstream
-//#include <string>    // std::string
-//#include <deque>    // std::deque
-//#include <array>   // std::array
-//#include <list>   // std::list
 
 namespace lib
 {
+    bool check_ending(std::string& value);
 }
 
 #endif //SPRINT01_LIB_H
