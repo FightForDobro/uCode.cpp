@@ -31,8 +31,8 @@ void lib::evolve(std::list<Rabbit> &rabbits, int *males, int *females, int *vamp
     rabbits.remove_if([](auto r){return (r.age > 3 && !r.isVampire) || r.age > 8;});
 
 
-    *males = std::count_if(rabbits.begin(), rabbits.end(), [](auto r){return r.gender == Gender::Male;});
-    *females = std::count_if(rabbits.begin(), rabbits.end(), [](auto r){return r.gender == Gender::Female;});
+    *males = std::count_if(rabbits.begin(), rabbits.end(), [](auto r){return r.gender == Gender::Male && !r.isVampire;});
+    *females = std::count_if(rabbits.begin(), rabbits.end(), [](auto r){return r.gender == Gender::Female && !r.isVampire;;});
     *vampire = std::count_if(rabbits.begin(), rabbits.end(), [](Rabbit r){return r.isVampire;});
 }
 

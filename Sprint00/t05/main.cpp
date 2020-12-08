@@ -35,7 +35,7 @@ int main(int argc ,char **argv)
     auto helth = std::stof(args[3]);
     auto stamina = std::stod(args[4]);
 
-    std::cout << "Name = " << args[1] << std::endl;
+    std::cout << "Name = " << name << std::endl;
     std::cout << "Level = " << level << std::endl;
     std::cout << "Health = " << helth << std::endl;
     std::cout << "Stamina = " << stamina << std::endl;
