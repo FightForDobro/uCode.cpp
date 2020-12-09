@@ -10,9 +10,7 @@ int main(int argc, char **argv)
     std::string name;
     std::forward_list<std::string> list;
 
-    file.seekg(1, std::ios::end);
-    auto res = file.bad();
-    auto res1 = file.good();
+    file.seekg(1, std::ios::end);;
     if (file.bad())
         std::cerr << "error" << std::endl, exit(0);
 
