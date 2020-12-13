@@ -22,7 +22,7 @@ T sumFileData(const std::string& fileName);
 
 ### Received knowledge
 1. [std::istream_iterator](https://en.cppreference.com/w/cpp/iterator/istream_iterator)
-1. [InputIterator](https://en.cppreference.com/w/cpp/iterator/input_iterator)
+1. [Input Iterator](https://en.cppreference.com/w/cpp/iterator/input_iterator)
 
 ### How to Build?
 ```bash
