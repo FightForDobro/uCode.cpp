@@ -2,7 +2,7 @@
 
 ### Description
 
-Create a template function sumOfArguments that takes a varying number of arguments as a
+Create a template function `sumOfArguments` that takes a varying number of arguments as a
 parameter and sums them up.
 
 ### Retrun
@@ -10,8 +10,8 @@ Returns the sum of a varying number of arguments.
 
 ### Synopsis
 ```c++
-template <class Container>
-void outputAny(const Container& c);
+template <class T, class ...Ts>
+T sumOfArguments(T t, Ts... args);
 ```
 
 ### Received knowledge
