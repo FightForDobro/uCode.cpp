@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.16.3)
-project(tesLibrary)
+project(templateAddition)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(tesLibrary main.cpp templateAddition.h)
+add_executable(templateAddition main.cpp templateAddition.h)
