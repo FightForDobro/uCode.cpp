@@ -25,7 +25,7 @@ int main(int argc ,char **argv)
 
     std::vector<std::string> args(argv, argv + argc);
 
-    if (std::count_if(args[2].begin(), args[2].end(), [](auto n){return n == '.'}) != 0)
+    if (std::count_if(args[2].begin(), args[2].end(), [](auto n){return n == '.';}) != 0)
         std::cerr << invarg_err << args[2] << std::endl, exit(0);
 
     std::for_each(args.begin() + 2, args.end(), check_arg);
