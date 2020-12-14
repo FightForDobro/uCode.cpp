@@ -2,7 +2,7 @@
 
 void multiplyByPointer(int* ptr, int mult)
 {
-    *ptr *= mult;
+    if (ptr) *ptr *= mult;
 }
 
 void multiplyByReference(int& ref, int mult)
@@ -17,7 +17,7 @@ int main()
     std::cout << "Original num: " << num << std::endl;
     std::cout << "Operand is: " << operand << std::endl;
 
-    multiplyByPointer(&num, operand);
+    multiplyByPointer(nullptr, operand);
 
     std::cout << "num multiplied by pointer: " << num << std::endl;
 
