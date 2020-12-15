@@ -2,7 +2,7 @@
 
 static std::string check_s(int bottles)
 {
-    return bottles <= 1 ? " bottle" : " bottles";
+    return (bottles <= 1) || (bottles != 11 && bottles % 10 == 1) ? " bottle" : " bottles";
 }
 
 
