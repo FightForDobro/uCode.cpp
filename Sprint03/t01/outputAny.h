@@ -1,6 +1,8 @@
 #ifndef TESLIBRARY_OUTPUTANY_H
 #define TESLIBRARY_OUTPUTANY_H
 
+#include <iostream>
+
 template <class Container>
 void outputAny(const Container& c)
 {
