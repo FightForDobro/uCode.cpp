@@ -3,8 +3,6 @@
 
 #include "tes_library.h"
 
-//#define line_regex "\\s*(\\\".+?\\\")\\s*:\\s*(\\\".+?\\\")\\s*"
-//#define line_regex "\\s*\"(.+?(?=\"))\"\\s*:\\s*\"(.+?(?=\"))"
 #define line_regex "\\s*\"(.+?(?=\"))\"\\s*:\\s*\"(.+?(?=\"))\"\\s*"
 
 namespace lib
