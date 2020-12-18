@@ -9,7 +9,7 @@ T sumFileData(const std::string& fileName)
 {
     std::ifstream file(fileName);
     std::istream_iterator<T> eos;
-    std::istream_iterator<T>file_iti (file);
+    std::istream_iterator<T> file_iti (file);
     T sum = 0;
 
     while (file_iti != eos)
