@@ -5,3 +5,4 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_library(utils STATIC algorithmUtils.h)
 set_target_properties(utils PROPERTIES LINKER_LANGUAGE CXX)
+target_compile_options(utils PUBLIC -Wall -Wextra -Werror -Wpedantic)
