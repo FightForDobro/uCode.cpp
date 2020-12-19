@@ -20,7 +20,7 @@ void ImperialSoldier::setWeapon(Sword *sword)
 void ImperialSoldier::consumeDamage(int amount)
 {
     m_health -= amount;
-    std::cout << "Imperial soldier consumes " << m_weapon->getDamage() << " of damage";
+    std::cout << "Imperial soldier consumes " << amount << " of damage";
 }
 
 int ImperialSoldier::getHealth() const
@@ -30,8 +30,11 @@ int ImperialSoldier::getHealth() const
 
 void ImperialSoldier::attack(StormcloakSoldier &enemy)
 {
-    enemy.consumeDamage(m_weapon->getDamage());
+    if (getHealth() <= 0)
+        return;
+
     std::cout << "Imperial soldier attacks and deals "<< m_weapon->getDamage() << " damage" << std::endl;
+    enemy.consumeDamage(m_weapon->getDamage());
 
     if (enemy.getHealth() <= 0)
         std::cout << " and dies";

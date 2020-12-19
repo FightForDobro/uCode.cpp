@@ -20,7 +20,7 @@ void StormcloakSoldier::setWeapon(Axe *sword)
 void StormcloakSoldier::consumeDamage(int amount)
 {
     m_health -= amount;
-    std::cout << "Stormcloak soldier consumes " << m_weapon->getDamage() << " of damage";
+    std::cout << "Stormcloak soldier consumes " << amount << " of damage";
 }
 
 int StormcloakSoldier::getHealth() const
@@ -30,8 +30,11 @@ int StormcloakSoldier::getHealth() const
 
 void StormcloakSoldier::attack(ImperialSoldier &enemy)
 {
-    enemy.consumeDamage(m_weapon->getDamage());
+    if (getHealth() <= 0)
+        return;
+
     std::cout << "Stormcloak soldier attacks and deals "<< m_weapon->getDamage() << " damage" << std::endl;
+    enemy.consumeDamage(m_weapon->getDamage());
 
     if (enemy.getHealth() <= 0)
         std::cout << " and dies";

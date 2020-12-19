@@ -15,7 +15,7 @@ static int string_to_dmg(std::string& dmg)
 
         return res;
     }
-    catch (std::overflow_error &e)
+    catch (...)
     {
         std::cerr << "Damage has to be in a range of 10-20 points." << std::endl, exit(EXIT_FAILURE);
     }
@@ -37,14 +37,13 @@ static void fight(ImperialSoldier& imperialSoldier, StormcloakSoldier& stormcloa
 {
     while (true)
     {
-            imperialSoldier.attack(stormcloakSoldier);
-            stormcloakSoldier.attack(imperialSoldier);
-
-        if (imperialSoldier.getHealth() == 0 || stormcloakSoldier.getHealth() == 0)
-            imperialSoldier.getHealth() != 0 ? std::cout << "Imperial has won!" << std::endl :
-                                               std::cout << "Stormcloak has won!" << std::endl;
-
+        imperialSoldier.attack(stormcloakSoldier);
+        stormcloakSoldier.attack(imperialSoldier);
         std::cout << "<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>" << std::endl;
+
+        if (imperialSoldier.getHealth() <= 0 || stormcloakSoldier.getHealth() <= 0)
+            stormcloakSoldier.getHealth() >= 0 ? std::cout << "Stormcloak has won!" << std::endl :
+            std::cout << "Imperial has won!" << std::endl, exit(0);
     }
 }
 
