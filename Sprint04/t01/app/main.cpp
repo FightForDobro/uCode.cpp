@@ -42,7 +42,7 @@ static void fight(ImperialSoldier& imperialSoldier, StormcloakSoldier& stormcloa
         std::cout << "<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>" << std::endl;
 
         if (imperialSoldier.getHealth() <= 0 || stormcloakSoldier.getHealth() <= 0)
-            stormcloakSoldier.getHealth() >= 0 ? std::cout << "Stormcloak has won!" << std::endl :
+            stormcloakSoldier.getHealth() > 0 ? std::cout << "Stormcloak has won!" << std::endl :
             std::cout << "Imperial has won!" << std::endl, exit(0);
     }
 }

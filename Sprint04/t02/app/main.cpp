@@ -1,5 +1,3 @@
-#include <iostream>
-#include <algorithm>
 #include <map>
 
 #include "Dragonborn.h"
@@ -15,17 +13,11 @@ int main(int argc, char **argv)
                                                           {"shout", Dragonborn::Actions::Shout},
                                                           {"magic", Dragonborn::Actions::Magic},
                                                           {"weapon", Dragonborn::Actions::Weapon},
-                                                          {"invalid", Dragonborn::Actions::Invalid}};
+                                                          {"", Dragonborn::Actions::Invalid}};
 
-//    Dragonborn dragonborn;
+    Dragonborn dragonborn;
     std::string action(argv[1]);
-    auto res = actions.find(action);
-    res--;
-//    dragonborn.executeAction(action.find(action));
-//    if (actions.find("A") != action.end())
-//        dragonborn.executeAction(actions[action]);
-//    else
-//        dragonborn.executeAction(Dragonborn::Actions::Invalid);
+    dragonborn.executeAction(actions.find(action) != actions.end() ? actions[action] : actions[""]);
 
     return 0;
 }
