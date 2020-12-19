@@ -14,7 +14,7 @@ void Dragonborn::attackWithMagic() const {
 }
 
 void Dragonborn::attackWithWeapon() const {
-    std::cout << "*attacks with weapon*$" << std::endl;
+    std::cout << "*attacks with weapon*" << std::endl;
 }
 
 void Dragonborn::executeAction(const Dragonborn::Actions action)
