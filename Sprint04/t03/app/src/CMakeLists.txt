@@ -9,5 +9,5 @@ file(GLOB_RECURSE sources *.cpp *.h)
 
 add_library(${BIN} ${sources})
 target_compile_options(${BIN} PUBLIC -std=c++17 -pipe -Wall -Wextra -Werror -Wpedantic -Wno-unused-parameter -Wno-unused-variable -g)
-target_include_directories(${BIN} PUBLIC ../../libsugar)
-target_link_libraries(${BIN} sugar)
+target_include_directories(${BIN} PUBLIC ../../libsugar ../../utils)
+target_link_libraries(${BIN} sugar utils)
