@@ -4,7 +4,10 @@
 
 #include "Draugr.h"
 
-Draugr::Draugr() : m_health(100), m_frostResist(50) {}
+Draugr::Draugr(double _health, int _frostResist): m_health(_health), m_frostResist(_frostResist)
+{
+    std::cout << "Draugr with " << m_health << " health and " << m_frostResist << " frost resist was born!\n";
+}
 
 void Draugr::shoutPhrase(int shoutNumber) const
 {
@@ -23,5 +26,9 @@ void Draugr::shoutPhrase(int shoutNumber) const
             };
 
 
-    std::cout << "Draugr (" << m_health << " health, " << m_frostResist << "% frost resist) shouts:\n" << phrases[shoutNumber] << '\n';
+    std::cout << "Draugr (" << m_health << " health, " << m_frostResist << "% frost resist) shouts:\n" << phrases[shoutNumber] << "\n";
 }
+
+
+
+
