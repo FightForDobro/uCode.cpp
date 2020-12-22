@@ -16,7 +16,7 @@ void MightyWizard::checkFood(FoodItem *food) {
     if (food)
         checkFood(*food);
     else
-        std::cout << "<wtf>. Ugh, not again!" << std::endl;
+        std::cout << "<unknown>. Ugh, not again!" << std::endl;
 }
 
 FoodType MightyWizard::deductFoodType(FoodItem& item)
